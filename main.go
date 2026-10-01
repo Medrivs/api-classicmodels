@@ -22,7 +22,7 @@ var db *sql.DB
 func main() {
 	var err error
 	
-	// AQUÍ CAMBIA "TU_CONTRASEÑA" POR TU CONTRASEÑA DE MYSQL
+	//CONTRASEÑA DE MYSQL
 	dsn := "root:Alanmbritos1@tcp(127.0.0.1:3306)/classicmodels"
 	
 	db, err = sql.Open("mysql", dsn)
